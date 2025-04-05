@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1044</width>
+    <height>829</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>50</y>
+      <width>930</width>
+      <height>676</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>930</width>
+      <height>676</height>
+     </size>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QFrame" name="frame_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>1</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border-top-left-radius:20px;
+border-top-right-radius:20px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item alignment="Qt::AlignLeft">
+            <widget class="QPushButton" name="pushButton">
+             <property name="layoutDirection">
+              <enum>Qt::LeftToRight</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none;
+font: 16pt &quot;黑体&quot;;
+</string>
+             </property>
+             <property name="text">
+              <string>网络仿真攻击渗透测试</string>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/icons/icon/logo.png</normaloff>:/icons/icon/logo.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignLeft">
+         <widget class="QFrame" name="frame_5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton{
+    border:none;
+}
+QPushButton:hover{
+    padding-bottom:5px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>10</number>
+           </property>
+           <property name="leftMargin">
+            <number>10</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>10</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_logout">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/icons/icon/exit.png</normaloff>:/icons/icon/exit.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>28</width>
+               <height>28</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_3">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/icons/icon/small.png</normaloff>:/icons/icon/small.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>28</width>
+               <height>28</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_2">
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="res.qrc">
+               <normaloff>:/icons/icon/close.png</normaloff>:/icons/icon/close.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>14</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#frame_3{
+	background-color: rgb(65, 85, 127);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>1</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_7{
+	background-color: rgb(65, 85, 127);
+    border-bottom-left-radius:20px;
+}
+QPushButton{
+	font: 14pt &quot;幼圆&quot;;
+}
+QPushButton:hover{
+	color:rgb(98, 125, 198)
+}
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="leftMargin">
+            <number>30</number>
+           </property>
+           <property name="rightMargin">
+            <number>30</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="pushButton_DHCP">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>DHCP运行测试</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_ICMP">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>ICMP泛洪攻击</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_ARP">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>ARP欺骗攻击</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_Control">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>SSH远程控制</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_MAC">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>MAC欺骗攻击</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_Window">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>主机与端口扫描</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_Person">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>40</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>个人信息管理</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+            <horstretch>3</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#frame_6{
+	background-color: rgb(255, 255, 255);
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QStackedWidget" name="stackedWidget">
+             <property name="currentIndex">
+              <number>7</number>
+             </property>
+             <widget class="QWidget" name="page_DHCP">
+              <widget class="QPushButton" name="pushButton_DHCP_get">
+               <property name="geometry">
+                <rect>
+                 <x>260</x>
+                 <y>60</y>
+                 <width>191</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </widget>
+              <widget class="QTextBrowser" name="textBrowser">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>280</y>
+                 <width>581</width>
+                 <height>301</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(240, 240, 240);</string>
+               </property>
+              </widget>
+              <widget class="QTextBrowser" name="textBrowser_Address">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>140</y>
+                 <width>581</width>
+                 <height>111</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(240, 240, 240);</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_ICMP">
+              <widget class="QPushButton" name="pushButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>40</y>
+                 <width>461</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>请打开WireShark与eNSP仿真环境进行该测试</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit">
+               <property name="geometry">
+                <rect>
+                 <x>260</x>
+                 <y>130</y>
+                 <width>311</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="text">
+                <string>ICMP泛洪攻击</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>130</y>
+                 <width>121</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>攻击方式：</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_7">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>200</y>
+                 <width>121</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>攻击强度：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_Power_in">
+               <property name="geometry">
+                <rect>
+                 <x>260</x>
+                 <y>200</y>
+                 <width>311</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string>请输入数字</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_ICMPstart">
+               <property name="geometry">
+                <rect>
+                 <x>210</x>
+                 <y>270</y>
+                 <width>291</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始测试</string>
+               </property>
+              </widget>
+              <widget class="QTextEdit" name="textEdit_ICMPover">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>350</y>
+                 <width>481</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 16pt &quot;幼圆&quot;;</string>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'幼圆'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_ARP">
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>60</y>
+                 <width>451</width>
+                 <height>121</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(0, 0, 0);
+font: 13pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);
+border-radius:10px</string>
+               </property>
+               <property name="text">
+                <string>ARP攻击通过伪造IP地址和MAC地址实现ARP欺骗，
+能够在网络中产生大量的ARP通信量，
+攻击者只要持续不断的发出伪造的ARP响应包
+就能更改目标主机ARP缓存中的IP-MAC条目，
+造成网络中断或中间人攻击。</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_GatewayIP">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>230</y>
+                 <width>351</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string> 输入你要冒充的设备IP</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_9">
+               <property name="geometry">
+                <rect>
+                 <x>120</x>
+                 <y>230</y>
+                 <width>131</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>Gateway IP:</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_10">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>300</y>
+                 <width>161</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>Misleading IP:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_MisleadIP">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>300</y>
+                 <width>351</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string> 输入你要欺骗的设备的IP</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_ARPstart">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>380</y>
+                 <width>221</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始欺骗</string>
+               </property>
+              </widget>
+              <widget class="QStackedWidget" name="stackedWidget_3">
+               <property name="geometry">
+                <rect>
+                 <x>120</x>
+                 <y>460</y>
+                 <width>461</width>
+                 <height>80</height>
+                </rect>
+               </property>
+               <widget class="QWidget" name="page_5"/>
+               <widget class="QWidget" name="page_6">
+                <widget class="QPushButton" name="pushButton_12">
+                 <property name="geometry">
+                  <rect>
+                   <x>90</x>
+                   <y>0</y>
+                   <width>301</width>
+                   <height>71</height>
+                  </rect>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">color: rgb(0, 0, 0);
+font: 12pt &quot;幼圆&quot;;
+border:None</string>
+                 </property>
+                 <property name="text">
+                  <string>正在欺骗
+请打开WireShark和靶机进行验证</string>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_Control">
+              <widget class="QPushButton" name="pushButton_Controlstart">
+               <property name="geometry">
+                <rect>
+                 <x>430</x>
+                 <y>500</y>
+                 <width>221</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始控制</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_13">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>380</y>
+                 <width>601</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 13pt &quot;黑体&quot;;
+border-radius:10px;</string>
+               </property>
+               <property name="text">
+                <string>【反向木马】目标主机作为主控端，本机作为被控端，需要主控端IP地址：
+请打开VMware虚拟机查看主控端IP地址并运行主控端程序
+（请保证主控端与被控端在同一网络）</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_Controlget">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>500</y>
+                 <width>351</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string>请输入主控端IP地址进行连接：</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_14">
+               <property name="geometry">
+                <rect>
+                 <x>50</x>
+                 <y>70</y>
+                 <width>601</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font: 13pt &quot;黑体&quot;;
+border-radius:10px;</string>
+               </property>
+               <property name="text">
+                <string>【正向木马】目标主机作为被控端，本机作为主控端，需要被控端IP地址：
+主控端程序生效后，请打开VMware虚拟机运行被控端程序
+（请保证主控端与被控端在同一网络）</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_Controlin">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>190</y>
+                 <width>351</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);</string>
+               </property>
+               <property name="placeholderText">
+                <string>请输入被控端IP地址进行连接：</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_Controlopen">
+               <property name="geometry">
+                <rect>
+                 <x>430</x>
+                 <y>190</y>
+                 <width>221</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始控制</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_MAC">
+              <widget class="QLineEdit" name="lineEdit_MACget">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>170</y>
+                 <width>401</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;</string>
+               </property>
+               <property name="placeholderText">
+                <string>请输入冒充的MAC地址：</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_MACstart">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>260</y>
+                 <width>401</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始欺骗</string>
+               </property>
+              </widget>
+              <widget class="QTextEdit" name="textEdit_MACover">
+               <property name="geometry">
+                <rect>
+                 <x>100</x>
+                 <y>350</y>
+                 <width>481</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 12pt &quot;幼圆&quot;;</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_4">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>40</y>
+                 <width>461</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:None;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+	color: rgb(255, 0, 0);
+}</string>
+               </property>
+               <property name="text">
+                <string>请打开WireShark与eNSP仿真环境进行该测试</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_Window">
+              <widget class="QPushButton" name="pushButton_IPalive">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>60</y>
+                 <width>151</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_IPalive">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>60</y>
+                 <width>331</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 13pt &quot;幼圆&quot;;</string>
+               </property>
+               <property name="placeholderText">
+                <string>请输入需要检测的目标主机IP地址：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_IPalive_2">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>340</y>
+                 <width>241</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="placeholderText">
+                <string>请输入需要检测的目标IP地址：</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_Portalive">
+               <property name="geometry">
+                <rect>
+                 <x>320</x>
+                 <y>340</y>
+                 <width>71</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="placeholderText">
+                <string>端口号：</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="pushButton_Portalive">
+               <property name="geometry">
+                <rect>
+                 <x>450</x>
+                 <y>340</y>
+                 <width>151</width>
+                 <height>51</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+    border:2px solid black;
+    border-radius:7px;
+	font: 14pt &quot;幼圆&quot;;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	background-color: rgb(234, 234, 234)
+}
+
+QPushButton:pressed{
+	padding-left:5px;
+    padding-top:5px;
+}</string>
+               </property>
+               <property name="text">
+                <string>开始检测</string>
+               </property>
+              </widget>
+              <widget class="QTextEdit" name="textEdit">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>130</y>
+                 <width>541</width>
+                 <height>151</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;
+border:2px solid black;</string>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Yu Gothic UI Semilight'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'SimSun'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+              <widget class="QTextEdit" name="textEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>60</x>
+                 <y>410</y>
+                 <width>541</width>
+                 <height>171</height>
+                </rect>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 14pt &quot;Yu Gothic UI Semilight&quot;;
+border:2px solid black;</string>
+               </property>
+               <property name="html">
+                <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Yu Gothic UI Semilight'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'SimSun'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QWidget" name="page_SQL"/>
+             <widget class="QWidget" name="page_Person">
+              <widget class="QFrame" name="frame_8">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>80</y>
+                 <width>501</width>
+                 <height>471</height>
+                </rect>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>501</width>
+                 <height>471</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+    
+	background-color: rgba(255, 255, 255, 0);
+    border:none;
+    border-bottom:1px solid black;
+}
+QPushButton{
+    background-color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+    border-radius:7px;
+}
+QPushButton:pressed{
+    padding-top:5px;
+    padding-left:5px;
+}</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_P_pass1">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="placeholderText">
+                   <string>密码：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_P_pass2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>40</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="echoMode">
+                   <enum>QLineEdit::Password</enum>
+                  </property>
+                  <property name="placeholderText">
+                   <string>确认密码：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_P_sure">
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 16pt &quot;幼圆&quot;;</string>
+                  </property>
+                  <property name="text">
+                   <string>确定</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QStackedWidget" name="stackedWidget_2">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="currentIndex">
+                   <number>0</number>
+                  </property>
+                  <widget class="QWidget" name="page"/>
+                  <widget class="QWidget" name="page_2">
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item alignment="Qt::AlignHCenter">
+                     <widget class="QLabel" name="label">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 0, 0);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>账号或密码不能为空！</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="page_3">
+                   <layout class="QVBoxLayout" name="verticalLayout_5">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item alignment="Qt::AlignHCenter">
+                     <widget class="QLabel" name="label_2">
+                      <property name="styleSheet">
+                       <string notr="true">color: rgb(255, 0, 0);
+font: 14pt &quot;Agency FB&quot;;</string>
+                      </property>
+                      <property name="text">
+                       <string>两次输入密码不一致！</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                  <widget class="QWidget" name="page_4">
+                   <layout class="QVBoxLayout" name="verticalLayout_6">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item alignment="Qt::AlignHCenter">
+                     <widget class="QLabel" name="label_3">
+                      <property name="styleSheet">
+                       <string notr="true">font: 14pt &quot;Agency FB&quot;;
+color:rgb(0, 85, 255)</string>
+                      </property>
+                      <property name="text">
+                       <string>密码修改成功！</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>954</x>
+     <y>74</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1009</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>921</x>
+     <y>76</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>966</x>
+     <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
