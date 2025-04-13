@@ -67,9 +67,12 @@
 - VirtualBox 7.0+
 2. 安装依赖包：`pip install -r requirements.txt`
 3. 配置eNSP网络环境
+
+  
+# 安装依赖库
+`pip install -r requirements.txt `
+
 ### 启动平台
 1. 运行 `main.py` 启动平台
 
 
-# 安装依赖库
-pip install -r requirements.txt 
